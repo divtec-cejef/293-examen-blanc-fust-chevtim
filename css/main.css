@@ -31,12 +31,31 @@ a:hover {
     color: #666666;
 }
 
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
 /********** STYLE HEADER *********/
 header {
     padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
+
+/********** STYLE FOOTER *********/
+
+footer {
+    color: #ffffff;
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
 
 /********** STYLE NAVIGATION *********/
 
@@ -77,19 +96,17 @@ main {
     margin: 0 auto;
 }
 
-p {
-    font-size: 1.3rem;
-    line-height: 1.5;
-    max-width: 800px;
-}
-
 /********** PAGE NOS PRODUITS *********/
 .produits {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .produits li {
+    flex-basis: 50%;
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
 }
@@ -102,6 +119,7 @@ p {
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
+    border: 2px solid #151515;
 }
 
 .produits figcaption {
@@ -110,7 +128,9 @@ p {
 }
 
 .produits figcaption h2 {
+    color: #ff8800;
     text-align: center;
     margin: .5em 0 0;
     line-height: 1.1;
 }
+/********** PAGE PAYCARD *********/
