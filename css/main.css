@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
@@ -28,11 +27,15 @@ a {
     color: #ff8800;
 }
 
+a:hover {
+    color: #666666;
+}
+
 /********** STYLE HEADER *********/
 header {
     padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
 /********** STYLE NAVIGATION *********/
@@ -62,11 +65,22 @@ header nav a:hover {
     background-color: #eeeeee;
 }
 
+header img {
+    max-height: 80px;
+
+}
+
 /********** STYLE CONTENU PRINCIPAL *********/
 main {
     padding: 1rem;
     max-width: 960px;
     margin: 0 auto;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    max-width: 800px;
 }
 
 /********** PAGE NOS PRODUITS *********/
