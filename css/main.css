@@ -44,6 +44,19 @@ header {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
 }
 
+/********** STYLE FOOTER *********/
+
+footer {
+    color: #ffffff;
+    background-color: #151515;
+    margin-top: 2rem;
+    padding: 20px 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
 /********** STYLE NAVIGATION *********/
 
 header nav ul {
@@ -115,5 +128,3 @@ main {
     line-height: 1.1;
 }
 /********** PAGE PAYCARD *********/
-
-.page-
